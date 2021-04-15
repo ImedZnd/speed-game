@@ -76,7 +76,6 @@ export class AppComponent implements OnInit{
     this.testConfig.timerTexts.minuteText = " "; //default - mm
 
   }
-
   stopTimer(){
     this.countupTimerService.pauseTimer();
   }
